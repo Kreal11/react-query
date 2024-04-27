@@ -19,7 +19,10 @@ const Projects = () => {
         </div>
       )}
       <span>Current page: {page}</span>
-      <button onClick={() => setPage((prev) => Math.max(prev - 1, 0))}>
+      <button
+        onClick={() => setPage((prev) => Math.max(prev - 1, 0))}
+        disabled={page === 1}
+      >
         Previous page
       </button>{" "}
       <button
