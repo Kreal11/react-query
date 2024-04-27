@@ -1,7 +1,7 @@
-import Todo from "./components/Todo";
+import Todos from "./components/Todos";
 
 const App = () => {
-  return <Todo />;
+  return <Todos />;
 };
 
 export default App;
